@@ -3,7 +3,7 @@
 var Doctor = require('./../js/doctor.js').doctorModule;
 
 var displayDoctor = function(medicalIssue, doctorFirst, doctorLast, doctorTitle) {
-  $('.findDoctor').text("The best doctor for " + medicalIssue + " is " + doctorFirst + " " + doctorLast + ": " + "" + doctorTitle);
+  $('.findDoctor').text(doctorFirst + " " + doctorLast + ": " + "" + doctorTitle);
 }
 
 $(document).ready(function() {
