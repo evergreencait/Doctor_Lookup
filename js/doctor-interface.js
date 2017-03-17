@@ -1,8 +1,9 @@
+
 var Doctor = require('./../js/doctor.js').doctorModule;
 
 var displayDoctor = function(medicalIssue, doctorData) {
-  $('.findDoctor').text("The doctor for " + medicalIssue + " is " + doctorData);
-};
+  $('.findDoctor').text("The best doctor for " + medicalIssue + " is " + doctorData);
+}
 
 $(document).ready(function() {
   var currentDoctorObject = new Doctor();
