@@ -1,8 +1,7 @@
-
-
 var Doctor = require('./../js/doctor.js').doctorModule;
 
 var displayDoctor = function(medicalIssue, doctorFirst, doctorLast, doctorTitle) {
+
   $('.findDoctor').append("<li>" + doctorFirst + " " + doctorLast + "</li>");
 }
 
