@@ -3,9 +3,11 @@ background-color: teal;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 120px;
+  color: white;
   text-align: center;
   padding-bottom: 100px;
+  font-family: 'Nova Oval', cursive;
 }
 
 #issue {
@@ -18,6 +20,7 @@ h1 {
   background-color: white;
   margin-top: 50px;
   margin-left: 5px;
+  font-size: 15px;
 }
 
 label {
@@ -31,4 +34,20 @@ label {
 
 #head {
   color: white;
+}
+
+img {
+  float: right;
+  height: 350px;
+}
+
+.jumboimg {
+  width: 100%;
+  margin-bottom: 100px;
+  border-bottom: 30px solid white;
+}
+
+.steth {
+  border: 8px solid white;
+  border-radius: 50%;
 }
